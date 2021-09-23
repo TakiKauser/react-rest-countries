@@ -13,7 +13,9 @@ const Countries = () => {
             <h1>Countries</h1>
             <h2>Available Countries: {countries.length}</h2>
             {
-                countries.map(country => <Country name={country.name.official} capital={country?.capital?.[0]}></Country>)
+                countries.map(country => <Country
+                    country={country}
+                ></Country>)
             }
         </div>
     );
