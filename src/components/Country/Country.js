@@ -2,7 +2,7 @@ import React from 'react';
 import './Country.css'
 
 const Country = (props) => {
-    console.log(props.country);
+    // console.log(props.country);
     const { common, official } = props?.country?.name;
     const { flags, capital, region } = props?.country;
     return (
